@@ -110,4 +110,12 @@
         android:summary="@string/floating_rotation_button_summary"
         android:defaultValue="true" />
 
+    <!-- Window ignore secure mode -->
+    <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:icon="@drawable/ic_settings_security"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
